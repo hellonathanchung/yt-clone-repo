@@ -131,16 +131,16 @@
       ],
       "async": false
     },
-    "/Users/nathanchung/Development/ytclone/yt-web-client/app/page.module.css": {
-      "id": "(app-client)/./app/page.module.css",
+    "/Users/nathanchung/Development/ytclone/yt-web-client/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/Users/nathanchung/Development/ytclone/yt-web-client/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+    "/Users/nathanchung/Development/ytclone/yt-web-client/app/navbar/index.tsx": {
+      "id": "(app-client)/./app/navbar/index.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
@@ -155,21 +155,21 @@
       ],
       "async": false
     },
-    "/Users/nathanchung/Development/ytclone/yt-web-client/app/navbar/index.tsx": {
-      "id": "(app-client)/./app/navbar/index.tsx",
+    "/Users/nathanchung/Development/ytclone/yt-web-client/app/page.module.css": {
+      "id": "(app-client)/./app/page.module.css",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/nathanchung/Development/ytclone/yt-web-client/app/page": [
-      "static/css/app/page.css"
-    ],
     "/Users/nathanchung/Development/ytclone/yt-web-client/app/layout": [
       "static/css/app/layout.css"
+    ],
+    "/Users/nathanchung/Development/ytclone/yt-web-client/app/page": [
+      "static/css/app/page.css"
     ]
   }
 }
