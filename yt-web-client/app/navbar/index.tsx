@@ -28,8 +28,8 @@ export default function Navbar() {
     <nav className={styles.nav}>
       <Link href="/">
         <Image width={90} height={20} src={youtubeIcon} alt="YouTube Logo" />
-        <SignIn user={user} />
       </Link>
+      <SignIn user={user} />
     </nav>
   );
 }
