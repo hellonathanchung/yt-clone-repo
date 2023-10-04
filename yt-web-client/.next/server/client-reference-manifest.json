@@ -39,6 +39,14 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./app/navbar/index.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/navbar/index.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -122,7 +130,46 @@
         "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
+    },
+    "/Users/nathanchung/Development/ytclone/yt-web-client/app/page.module.css": {
+      "id": "(app-client)/./app/page.module.css",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/nathanchung/Development/ytclone/yt-web-client/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/nathanchung/Development/ytclone/yt-web-client/app/navbar/index.tsx": {
+      "id": "(app-client)/./app/navbar/index.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/nathanchung/Development/ytclone/yt-web-client/app/globals.css": {
+      "id": "(app-client)/./app/globals.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
     }
   },
-  "entryCSSFiles": {}
+  "entryCSSFiles": {
+    "/Users/nathanchung/Development/ytclone/yt-web-client/app/page": [
+      "static/css/app/page.css"
+    ],
+    "/Users/nathanchung/Development/ytclone/yt-web-client/app/layout": [
+      "static/css/app/layout.css"
+    ]
+  }
 }
