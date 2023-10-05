@@ -27,7 +27,7 @@ export default function Upload() {
   };
 
   return (
-    <Fragment>
+    <>
       <input
         id="upload"
         className={styles.uploadInput}
@@ -50,6 +50,6 @@ export default function Upload() {
           />
         </svg>
       </label>
-    </Fragment>
+    </>
   );
 }
